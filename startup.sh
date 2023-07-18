@@ -7,7 +7,7 @@ git pull || echo "ERROR: git pull failed"
 chmod +x *.sh
 
 # cp systemd files
-cp ./systemd /etc/systemd
+cp -r ./systemd/* /etc/systemd
 
 # reload systemd daemon
 systemctl daemon-reload 
