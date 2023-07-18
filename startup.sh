@@ -1,5 +1,8 @@
 #! /usr/bin/env bash
 
+# reset directory so it can be pulled cleanly
+git reset --hard origin/master
+
 # update scripts directory
 git pull || echo "ERROR: git pull failed"
 
