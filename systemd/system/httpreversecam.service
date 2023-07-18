@@ -1,0 +1,13 @@
+[Unit]
+Description=HTTP Reverse Cam Script
+
+[Service]
+Type=simple
+#User=pi
+#Group=
+ExecStart=/home/pi/httpreversecam.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+
