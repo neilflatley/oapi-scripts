@@ -1,0 +1,13 @@
+[Unit]
+Description=Enable V4L2 loopback Script
+
+[Service]
+Type=simple
+#User=pi
+#Group=
+ExecStart=/home/pi/oapi-scripts/enable-v4l2loopback.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+

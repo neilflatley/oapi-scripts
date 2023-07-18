@@ -3,9 +3,9 @@ Description=HTTP Reverse Cam Script
 
 [Service]
 Type=simple
-#User=pi
+User=pi
 #Group=
-ExecStart=/home/pi/httpreversecam.sh
+ExecStart=/home/pi/oapi-scripts/httpreversecam.sh
 Restart=on-failure
 
 [Install]
