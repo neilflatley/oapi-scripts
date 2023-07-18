@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
 
+HOME=/home/pi
 cd /home/pi/oapi-scripts
 git config --global --add safe.directory /home/pi/oapi-scripts
 
