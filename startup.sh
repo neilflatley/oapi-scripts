@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
+cd ~/oapi-scripts
+
 # reset directory so it can be pulled cleanly
 git reset --hard origin/master
 
