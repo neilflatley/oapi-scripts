@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
 cd /home/pi/oapi-scripts
+git config --global --add safe.directory /home/pi/oapi-scripts
 
 # reset directory so it can be pulled cleanly
 git reset --hard origin/master
