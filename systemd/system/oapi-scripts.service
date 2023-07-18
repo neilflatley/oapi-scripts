@@ -1,0 +1,13 @@
+[Unit]
+Description=Pull and install oapi-scripts git repo
+
+[Service]
+Type=simple
+#User=pi
+#Group=
+ExecStart=/home/pi/oapi-scripts/startup.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+
