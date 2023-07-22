@@ -5,7 +5,7 @@ curl \
   -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiZjA0NDhjZTYwYzQ0NzkwOTE5MzQ0OTExZGE1ZjZjYSIsImlhdCI6MTY4OTk5OTgxMCwiZXhwIjoyMDA1MzU5ODEwfQ.zQkeyO2-YvvpTIvqyy_JVJbzRgEp6IKy79BMWl0m_VQ" \
   -H "Content-Type: application/json" \
   -d '{"entity_id": "switch.surveillance_system"}' \
-  http://192.168.12.1:8123/api/services/switch/turn_on
+  -X POST http://192.168.12.1:8123/api/services/switch/turn_on
 
 # Give it some time to start
 sleep 12
